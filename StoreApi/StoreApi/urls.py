@@ -19,5 +19,5 @@ from myApp import views
 urlpatterns = [
     url('admin/', admin.site.urls),
     url('api/',views.ItemListApiView.as_view()),
-    url('apicreate/',views.ItemCreateAPIView.as_view())
+    url('apicreate/',views.ItemCreateAPIView.as_view()),
 ]
