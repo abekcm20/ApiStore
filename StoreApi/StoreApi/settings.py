@@ -25,7 +25,7 @@ SECRET_KEY = '-yok@#w#9b$zslr9(=#n7jkk@osg&%m_1j39-hbeuge6&$(xp&'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1']
+AALLOWED_HOSTS = ['127.0.0.1','apistoreabhi.herokuapp.com']
 
 
 # Application definition
