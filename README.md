@@ -1,6 +1,6 @@
 # ApiStore
 
---------------------------------------------------------how to run the application locally----------------------------------------------------------
+----------------------------------------------------how to run the application locally-------------------------------------------------------
 
 Step 1 :   git clone https://github.com/abekcm20/ApiStore.git
 
