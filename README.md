@@ -4,9 +4,9 @@
 
 Step 1 :   git clone https://github.com/abekcm20/ApiStore.git
 
-Step 2 :   go to terminal :   pip install -r requirements.txt 
+Step 2 :   go to terminal :   cd ApiStore/StoreApi/StoreApi
 
-Step 3 :   cd ApiStore/StoreApi/StoreApi
+Step 3 :   pip install -r requirements.txt 
 
 Step 4 :   python manage.py runserver
 
