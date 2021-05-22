@@ -4,7 +4,7 @@
 
 Step 1 :   git clone https://github.com/abekcm20/ApiStore.git
 
-Step 2 :   go to terminal :   cd ApiStore/StoreApi/StoreApi
+Step 2 :   go to terminal :   cd ApiStore/StoreApi
 
 Step 3 :   pip install -r requirements.txt 
 
