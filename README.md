@@ -20,7 +20,8 @@ Step 6 :   input
            
 Step 7 :   output
            End Point :http://127.0.0.1:8000/api/
-           ![sample_output](https://user-images.githubusercontent.com/74650961/119254320-441a4d00-bbd3-11eb-8918-792c69a6bebc.png)
+           ![sample_output](https://user-images.githubusercontent.com/74650961/119254583-b8092500-bbd4-11eb-9859-d4a40ce77bbe.png)
+
 
 
            
