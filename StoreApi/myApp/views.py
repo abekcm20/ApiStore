@@ -29,7 +29,7 @@ class ItemListApiView(APIView):
         for item_data_1 in data:
             final_price['total_price'] += item_data_1['price']
         if final_price['total_price'] >= 2000:
-            final_price['total_price']=final_price['total_price']*(5/100)-final_price['total_price']
+            final_price['total_price']=final_price['total_price']-final_price['total_price']*(5/100)
         date = datetime.date.today()
         final_price['date']=date
         data.append(final_price)
