@@ -18,11 +18,13 @@ class ItemListApiView(APIView):
                 item_data['price']=(item_data['price']*(5/100)+item_data['price'])*item_data['quantity']
             elif item_data['itemCategory']=='Imported':
                 item_data['price']=(item_data['price']*(18/100)+item_data['price'])*item_data['quantity']
-            elif item_data['itemCategory']=='Music':
+            elif item_data['itemCategory']=='Clothes':
                 if item_data['price'] <=1000:
                     item_data['price']=(item_data['price']*(5/100)+item_data['price'])*item_data['quantity']
                 elif item_data['price'] >=1000:
                     item_data['price']=(item_data['price']*(12/100)+item_data['price'])*item_data['quantity']
+            elif item_data['itemCategory']=='Music':
+                item_data['price']=(item_data['price']*(3/100)+item_data['price'])*item_data['quantity']
         final_price = {'total_price': 0,'date':None}
         for item_data_1 in data:
             final_price['total_price'] += item_data_1['price']
